@@ -1,0 +1,99 @@
+/* contextual selector-2.f */ /* grouped selector-2.b */
+footer, hidden{
+ /* Visibility-16 */
+  visibility: hidden;
+  
+  color: rgb(20, 10, 107)
+  
+}
+/* element selector-2.a */
+#heading{
+    /* Font-1 */
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: purple;
+}
+
+.font1{
+    font-size: 20px;
+    /* Text-2 */
+    line-height: 1.5;
+    /* Color-3 */
+    color:rgb(194, 8, 123);
+    font-family:'Times New Roman', Times, serif
+    
+}
+
+.font2{
+  font-size: 20px;
+  line-height: 1.5;
+  color:rgb(194, 8, 123);
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif
+  
+}
+
+.font3{
+  font-size: 25px;
+  /* Absolute-9 */
+  line-height: 1.5;
+  color:rgb(9, 9, 200);
+  font-weight: bold;
+  font-family:comic sans-serif
+  
+}
+
+
+.size1{
+  /* Size-7 */
+  font-size: 20px;
+  line-height:1.5;
+}
+
+
+.center {
+  width:1880px;
+  text-align: center;
+  line-height: 1.5;
+  /* Display-12 */
+  display: inline-block;
+  /* border-5 */
+  border: 3px solid green;
+}
+  
+
+.nav {
+  background-color:darkgray;
+ text-align: center;
+}
+/* psudeo Selector-2.e */
+.shade:hover{
+  background-color:rgb(23, 23, 95);
+}
+
+
+.img-container {
+  /* Float-11 */
+  float: left;
+
+  /* Relative Units-10 */
+  width: 30%;
+  /* Spacing-6 */
+  padding: 5px;
+}
+
+  
+  body{
+    /* Background-4 */
+    background-color: rgb(0, 0, 0);
+    /* Relative Units-15 */
+    position:static; 
+}
+
+
+ul.dots{
+  /* Lists.8 */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
